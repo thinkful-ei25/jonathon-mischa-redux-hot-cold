@@ -10,11 +10,11 @@ export const updateFeedback = newFeedback => ({
   newFeedback
 });
 
-export const CORRECT_ANSWER = 'CORRECT_ANSWER';
-export const correctAnswer = answer => ({
-  type: CORRECT_ANSWER,
-  answer
-})
+// export const CORRECT_ANSWER = 'CORRECT_ANSWER';
+// export const correctAnswer = answer => ({
+//   type: CORRECT_ANSWER,
+//   answer
+// })
 
 export const RESTART_GAME = 'RESTART_GAME';
 export const restartGame = reset => ({

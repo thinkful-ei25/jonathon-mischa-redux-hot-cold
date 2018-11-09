@@ -19,7 +19,9 @@ export const updateState = (state=initialState, action) => {
   }
   else if(action.type === RESTART_GAME){
     return Object.assign({}, state,{
-      state = {initialState}
+      guesses: [],
+      feedback: 'Make your guess!',
+      correctAnswer: Math.floor((Math.random() * 100) + 1)
     });
   }
 }
