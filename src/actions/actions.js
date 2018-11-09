@@ -11,7 +11,7 @@ export const updateFeedback = newFeedback => ({
 });
 
 export const CORRECT_ANSWER = 'CORRECT_ANSWER';
-export const correctAnser = answer => ({
+export const correctAnswer = answer => ({
   type: CORRECT_ANSWER,
   answer
 })
